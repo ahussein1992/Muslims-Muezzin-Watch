@@ -1,11 +1,17 @@
 # Praying-Muezzin-Watch
-Muslims Muezzin &amp; Watch
-using two microcontrollers to play Adhan at the right time and display time and date 
-
-2 atmega8 connected using software serial 
+Muslims Muezzin; Watch
+using microcontrollers to run Muslims Adhans at their right times using mini DFPlayer
+and to display time/date on four 7-Segment 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-first one uses RTC_DS1307 to get the right time and date and send it to the other atmega8 and display the data at the same time 
+Two microcontrollers "atmega8" connected using software serial 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-second one uses DFPlayer to play Adhan at the right time after caculating praying times & it can play different files recorded on DFPlayer 
+First microcontroller:
+uses RTC_DS1307 to get the right time and date & send its data to the other microcontroller to display the new data.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Second microcontroller:
+uses DFPlayer to run Adhan after caculating praying times.
+it can also play different files recorded on DFPlayer SDCard
