@@ -1,6 +1,7 @@
 # Praying-Muezzin-Watch
 Muslims Muezzin &amp; Watch
 using two microcontrollers to play Adhan at the right time and display time and date 
+
 2 atmega8 connected using software serial 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
